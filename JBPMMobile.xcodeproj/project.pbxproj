@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F1B7EA011704DACBD784113 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F23B66BB6D6E41E9B141ADE6 /* libPods.a */; };
 		D77219AA178F1D6800E466F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77219A9178F1D6800E466F8 /* UIKit.framework */; };
 		D77219AC178F1D6800E466F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77219AB178F1D6800E466F8 /* Foundation.framework */; };
 		D77219AE178F1D6800E466F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77219AD178F1D6800E466F8 /* CoreGraphics.framework */; };
@@ -24,6 +25,13 @@
 		D77219D0178F1D6800E466F8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77219AF178F1D6800E466F8 /* CoreData.framework */; };
 		D77219D8178F1D6800E466F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D77219D6178F1D6800E466F8 /* InfoPlist.strings */; };
 		D77219DB178F1D6800E466F8 /* JBPMMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D77219DA178F1D6800E466F8 /* JBPMMobileTests.m */; };
+		D77219E6178F1E2400E466F8 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D77219E5178F1E2400E466F8 /* loginViewController.m */; };
+		D77219E9178F258B00E466F8 /* taskTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D77219E8178F258B00E466F8 /* taskTableViewController.m */; };
+		D77219EC178F282F00E466F8 /* taskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D77219EB178F282F00E466F8 /* taskDetailViewController.m */; };
+		D7721A0B1790480B00E466F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7721A0A1790480B00E466F8 /* SystemConfiguration.framework */; };
+		D7721A0D1790481600E466F8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7721A0C1790481600E466F8 /* MobileCoreServices.framework */; };
+		D7721A1017904BFD00E466F8 /* JBPMRESTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D7721A0F17904BFD00E466F8 /* JBPMRESTClient.m */; };
+		D7721A131794893E00E466F8 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = D7721A121794893E00E466F8 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C0C34BB139A42F1BE6BCD86 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		D77219A6178F1D6800E466F8 /* JBPMMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBPMMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77219A9178F1D6800E466F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D77219AB178F1D6800E466F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +67,19 @@
 		D77219D7178F1D6800E466F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D77219D9178F1D6800E466F8 /* JBPMMobileTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBPMMobileTests.h; sourceTree = "<group>"; };
 		D77219DA178F1D6800E466F8 /* JBPMMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBPMMobileTests.m; sourceTree = "<group>"; };
+		D77219E4178F1E2400E466F8 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		D77219E5178F1E2400E466F8 /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		D77219E7178F258B00E466F8 /* taskTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taskTableViewController.h; sourceTree = "<group>"; };
+		D77219E8178F258B00E466F8 /* taskTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = taskTableViewController.m; sourceTree = "<group>"; };
+		D77219EA178F282F00E466F8 /* taskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taskDetailViewController.h; sourceTree = "<group>"; };
+		D77219EB178F282F00E466F8 /* taskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = taskDetailViewController.m; sourceTree = "<group>"; };
+		D7721A0A1790480B00E466F8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D7721A0C1790481600E466F8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D7721A0E17904BFD00E466F8 /* JBPMRESTClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBPMRESTClient.h; sourceTree = "<group>"; };
+		D7721A0F17904BFD00E466F8 /* JBPMRESTClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBPMRESTClient.m; sourceTree = "<group>"; };
+		D7721A111794893E00E466F8 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		D7721A121794893E00E466F8 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		F23B66BB6D6E41E9B141ADE6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +91,9 @@
 				D77219AC178F1D6800E466F8 /* Foundation.framework in Frameworks */,
 				D77219AE178F1D6800E466F8 /* CoreGraphics.framework in Frameworks */,
 				D77219B0178F1D6800E466F8 /* CoreData.framework in Frameworks */,
+				4F1B7EA011704DACBD784113 /* libPods.a in Frameworks */,
+				D7721A0B1790480B00E466F8 /* SystemConfiguration.framework in Frameworks */,
+				D7721A0D1790481600E466F8 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,10 +114,13 @@
 		D772199D178F1D6800E466F8 = {
 			isa = PBXGroup;
 			children = (
+				D7721A0C1790481600E466F8 /* MobileCoreServices.framework */,
+				D7721A0A1790480B00E466F8 /* SystemConfiguration.framework */,
 				D77219B1178F1D6800E466F8 /* JBPMMobile */,
 				D77219D3178F1D6800E466F8 /* JBPMMobileTests */,
 				D77219A8178F1D6800E466F8 /* Frameworks */,
 				D77219A7178F1D6800E466F8 /* Products */,
+				8C0C34BB139A42F1BE6BCD86 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +141,7 @@
 				D77219AD178F1D6800E466F8 /* CoreGraphics.framework */,
 				D77219AF178F1D6800E466F8 /* CoreData.framework */,
 				D77219CC178F1D6800E466F8 /* SenTestingKit.framework */,
+				F23B66BB6D6E41E9B141ADE6 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +151,16 @@
 			children = (
 				D77219BA178F1D6800E466F8 /* AppDelegate.h */,
 				D77219BB178F1D6800E466F8 /* AppDelegate.m */,
+				D77219E4178F1E2400E466F8 /* loginViewController.h */,
+				D77219E5178F1E2400E466F8 /* loginViewController.m */,
+				D7721A0E17904BFD00E466F8 /* JBPMRESTClient.h */,
+				D7721A0F17904BFD00E466F8 /* JBPMRESTClient.m */,
+				D77219E7178F258B00E466F8 /* taskTableViewController.h */,
+				D77219E8178F258B00E466F8 /* taskTableViewController.m */,
+				D7721A111794893E00E466F8 /* Task.h */,
+				D7721A121794893E00E466F8 /* Task.m */,
+				D77219EA178F282F00E466F8 /* taskDetailViewController.h */,
+				D77219EB178F282F00E466F8 /* taskDetailViewController.m */,
 				D77219C3178F1D6800E466F8 /* JBPMMobile.xcdatamodeld */,
 				D77219B2178F1D6800E466F8 /* Supporting Files */,
 			);
@@ -168,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D77219DE178F1D6800E466F8 /* Build configuration list for PBXNativeTarget "JBPMMobile" */;
 			buildPhases = (
+				A73BACF9C56C4D949D840369 /* Check Pods Manifest.lock */,
 				D77219A2178F1D6800E466F8 /* Sources */,
 				D77219A3178F1D6800E466F8 /* Frameworks */,
 				D77219A4178F1D6800E466F8 /* Resources */,
+				BA5D1D87601E46068C8F8D37 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +291,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		A73BACF9C56C4D949D840369 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA5D1D87601E46068C8F8D37 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D77219C9178F1D6800E466F8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,6 +344,11 @@
 				D77219B8178F1D6800E466F8 /* main.m in Sources */,
 				D77219BC178F1D6800E466F8 /* AppDelegate.m in Sources */,
 				D77219C5178F1D6800E466F8 /* JBPMMobile.xcdatamodeld in Sources */,
+				D77219E6178F1E2400E466F8 /* loginViewController.m in Sources */,
+				D77219E9178F258B00E466F8 /* taskTableViewController.m in Sources */,
+				D77219EC178F282F00E466F8 /* taskDetailViewController.m in Sources */,
+				D7721A1017904BFD00E466F8 /* JBPMRESTClient.m in Sources */,
+				D7721A131794893E00E466F8 /* Task.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +448,7 @@
 		};
 		D77219DF178F1D6800E466F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0C34BB139A42F1BE6BCD86 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JBPMMobile/JBPMMobile-Prefix.pch";
@@ -383,6 +460,7 @@
 		};
 		D77219E0178F1D6800E466F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0C34BB139A42F1BE6BCD86 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JBPMMobile/JBPMMobile-Prefix.pch";
@@ -445,6 +523,7 @@
 				D77219E0178F1D6800E466F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D77219E1178F1D6800E466F8 /* Build configuration list for PBXNativeTarget "JBPMMobileTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +532,7 @@
 				D77219E3178F1D6800E466F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
