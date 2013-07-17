@@ -10,5 +10,5 @@ Step 1- $ git clone URL_TO_THIS_REPO <br />
 Step 2- $ cd JBPMMobile <br />
 Step 3- $ pod update <br />
 Step 4- open JBPMMobile.xcworkspace <br />
-Step 5- update JBPMRESTClient.m with your server url
+Step 5- update JBPMRESTClient.m with your server url <br />
 Step 6- build and run
