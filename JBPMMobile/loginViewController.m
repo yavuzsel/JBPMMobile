@@ -14,7 +14,9 @@
 
 @end
 
-@implementation loginViewController
+@implementation loginViewController {
+    UITextField *usernameField, *passwordField;
+}
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -100,7 +102,18 @@
     editableView.tag = (10+indexPath.section);
     [fieldHolder addSubview:editableView];
     [cell addSubview:fieldHolder];
-    
+    switch (indexPath.section) { // find a better way to get username and password
+        case 0:
+            usernameField = editableView;
+            break;
+            
+        case 1:
+            passwordField = editableView;
+            break;
+            
+        default:
+            break;
+    }
     return cell;
 }
 
@@ -111,13 +124,11 @@
             NSIndexPath* cellPath = [NSIndexPath indexPathForRow:row inSection:section];
             UITableViewCell* cell = [self.tableView cellForRowAtIndexPath:cellPath];
             [[cell viewWithTag:(10+section)] resignFirstResponder];
-            if (section == 0) {
-                username = ((UITextField *)[cell viewWithTag:(10+section)]).text;
-            } else if (section == 1) {
-                password = ((UITextField *)[cell viewWithTag:(10+section)]).text;
-            }
         }
     }
+    username = usernameField.text;
+    password = passwordField.text;
+
     NSLog(@"username: %@ password: %@", username, password);
     id params = @{@"j_username": username, @"j_password": password};
     [[JBPMRESTClient sharedClient]
